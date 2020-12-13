@@ -46,7 +46,6 @@ if __name__ == "__main__":
 			break
 		elif ins.status == ins.STOPPED:
 			stderr.write("STOPPED\n")
-			instance_start(_sdk, ins)
 		else:
 			stderr.write("status %d\n" % ins.status)
 
